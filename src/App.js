@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Children from './Children';
 
 function App() {
+  const name = "김은현";
+  const age = 24;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>리액트 복습중 .. 🐳</h1> 
+      <h3>{name}님 반갑습니다.</h3>
+      <Children name="신동진" age="35" />
+      <Children name="김은현" age="25" /> {/* 재사용 가능 */}
+      <Children name="노유리" age="24" />
     </div>
   );
 }
