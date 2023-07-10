@@ -1,0 +1,17 @@
+[
+  {
+    "name": "붉은돼지",
+    "path": "https://www.ghibli.jp/gallery/porco027.jpg",
+    "person": 1
+  },
+  {
+    "name": "원령공주",
+    "path": "https://www.ghibli.jp/gallery/mononoke048.jpg",
+    "person": 1
+  },
+  {
+    "name": "센과 치히로의 행방불명",
+    "path": "https://www.ghibli.jp/gallery/chihiro021.jpg",
+    "person": 2
+  }
+]
