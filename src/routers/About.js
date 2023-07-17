@@ -1,6 +1,5 @@
-import { useLocation } from "react-router-dom";
 import "./About.css";
-import figureGif from "./Ghibli.gif"
+import figureGif from "../img/Ghibli.gif"
 
 function About() {
 
